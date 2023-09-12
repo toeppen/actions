@@ -19,7 +19,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: ActionTest
+          branch: main
           title: '[Example] Update report'
           body: |
             Update report
