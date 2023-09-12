@@ -17,6 +17,5 @@ jobs:
           create -B main -H ActionTest 
           --reviewer 'toeppen' 
           --title 'Create Test Stage's Weekly Release' 
-          --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
