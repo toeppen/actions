@@ -13,6 +13,6 @@ jobs:
       - name: Creating Pull Request
         uses: actions/checkout@v2
       - name: create pull request
-        run: gh pr create -B main -H ActionTest --reviewer 'toeppen' --label 'Release' --title 'Create Test Stage's Weekly Release' --body 'Created by Github action'
+        run: gh pr create -B main -H ActionTest --reviewer 'toeppen' --label 'release' --title 'Create Test Stage's Weekly Release' --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
